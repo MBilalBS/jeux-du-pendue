@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    background-image: url(/assets/img/background_img.jpg);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.background_img{
+    width: 100%;
+}
