@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: blue;
-    background-image: url(/assets/img/background_img.jpg);
+    border: 1px solid red;
 }
 
 h1{
@@ -11,7 +10,21 @@ h1{
     margin: 20px;
     font-size: 40px;
 }
+body {
+    background-image: url(/assets/img/background_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 1930px 931px;
+}
 
-.background_img{
-    width: 100%;
+#background_img{
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+}
+input{
+    background-color: aqua;
+    flex-wrap: wrap;
+    justify-content: center;
 }
